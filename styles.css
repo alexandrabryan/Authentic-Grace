@@ -828,6 +828,9 @@ tr:nth-child(even) {
   display: block;
   margin: 40px auto 80px auto;
   font-size: 1.25em;
+/*addition of z-index and position elements to send button backwards */
+  position: relative;
+  z-index: -1;	
 }
 
 .cart-btn {
